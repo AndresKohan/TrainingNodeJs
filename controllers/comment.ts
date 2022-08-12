@@ -1,7 +1,6 @@
 import { Request, Response, NextFunction } from "express";
 import CommentService from "../services/comment";
 
-//const commentService = new CommentService();
 
 export default class CommentController {
 

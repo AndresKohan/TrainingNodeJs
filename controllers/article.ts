@@ -2,10 +2,6 @@ import { NextFunction, Request, Response } from 'express';
 import ArticleService from '../services/article';
 import CommentService from '../services/comment';
 
-
-//const articleService = new ArticleService();
-//const commentService = new CommentService();
-
 export default class ArticleController {
 
     static async fetch(req: Request, res: Response, next: NextFunction) {
